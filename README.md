@@ -38,4 +38,4 @@ Bu proje, aşağıdaki ekip üyelerinin katkılarıyla geliştirilmiştir:
 2) Adem Can Demirci
 
 # 📄 Lisans
-Bu proje MIT lisansı ile lisanslanmıştır. Ayrıntılar için LICENSE dosyasına bakabilirsiniz.
+Bu proje MIT lisansı ile lisanslanmıştır. Ayrıntılar için ```LICENSE``` dosyasına bakabilirsiniz.
