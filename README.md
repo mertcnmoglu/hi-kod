@@ -1,16 +1,41 @@
-# bitirmeprojesi
+# 📱 Dijital Şiddet Bilgilendirme Uygulaması
+Merhaba, bu uygulama Hi Kod Mobil Uygulama Geliştirme eğitim programı kapsamında Flutter ile geliştirilmiştir. Dijital şiddet hakkında bilinçlendirme amacı taşır ve kullanıcıların dijital şiddet türleri hakkında bilgi edinmesini sağlar.
 
-A new Flutter project.
+## 🚀 Özellikler
+🔐 Giriş / Kayıt Olma: Kullanıcılar, uygulamaya giriş yaparak veya kayıt olarak bilgiye erişebilirler.
+💡 Dijital Şiddet Bilgilendirme: Dijital şiddet türlerini seçerek her bir tür hakkında detaylı bilgi alabilirsiniz.
+👤 Profil Sayfası: CurvedNavigationBar ile profile ulaşılır. Profilde kullanıcı bilgileri ve profil resmi görüntülenir.
+⚙ Ayarlar ve Şifre Değiştirme: Kullanıcı, profil bilgilerini düzenleyebilir ve şifresini değiştirebilir.
+🔔 Bildirimler: AppBar’daki bildirim ikonuna tıklandığında, varsa bildirimler görüntülenir.
+# 📲 Kurulum
+Projeyi cihazınızda çalıştırmak için aşağıdaki adımları izleyebilirsiniz:
 
-## Getting Started
+## Bu projeyi klonlayın:
 
-This project is a starting point for a Flutter application.
+```git clone https://github.com/kullanici_adi/proje_adi.git```
+### Proje dizinine gidin:
 
-A few resources to get you started if this is your first Flutter project:
+```cd proje_adi```
+### Gerekli bağımlılıkları yükleyin:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```flutter pub get```
+### Uygulamayı çalıştırın:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```flutter run```
+# 📂 Dosya Yapısı
+main.dart: Uygulamanın giriş ve kayıt olma ekranını içerir.
+HomePage.dart: Ana sayfa bileşenlerini barındırır.
+profile.dart: Kullanıcının profil bilgilerini ve ayar seçeneklerini içerir.
+🛠 Kullanılan Paketler
+CurvedNavigationBar: Kullanıcı profiline geçiş için kullanılır.
+Firebase Auth: Kullanıcı giriş işlemleri için.
+Firebase Firestore: Kullanıcı bilgilerini saklama.
+
+# 👥 Katkıda Bulunanlar
+Bu proje, aşağıdaki ekip üyelerinin katkılarıyla geliştirilmiştir:
+
+1) Mert İsa Canımoğlu
+2) Adem Can Demirci
+
+# 📄 Lisans
+Bu proje MIT lisansı ile lisanslanmıştır. Ayrıntılar için LICENSE dosyasına bakabilirsiniz.
